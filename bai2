@@ -1,9 +1,0 @@
-n = int (input("Nhập sô dòng cần chuyển đổi : "))
-while ( n <= 0 or n >= 100):
-    n=int(input("Số dòng không hợp lệ " "\n"  "Vui lòng nhập lại : "))
-
-print ("Hợp lệ !" "\n" "Nhập chuỗi cần đếm : ")
- 
-for i in range (1, n+1):
-  sokitu = count_word()
-  print(f"Test {i} : {sokitu}")
