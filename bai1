@@ -1,0 +1,11 @@
+n = int (input("Nhập sô dòng cần chuyển đổi : "))
+while ( n <= 0 or n >= 100):
+    n=int(input("Số dòng không hợp lệ " "\n"  "Vui lòng nhập lại : "))
+
+bt1 = []
+for i in range (0, n, 1 ):
+    bt1.append(str(input(f"Nhập chuổi cần chuyển đổi { i + 1 } ")))
+
+print(bt1)
+for i in bt1:
+  print (i.title())
